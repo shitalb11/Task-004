@@ -4,11 +4,19 @@ import model.Employee;
 import java.io.*;
 import java.util.*;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d18c731ece3cea05575d06e35c4c26550ffb8e9
 public class EmployeeService {
     private ArrayList<Employee> employeeList = new ArrayList<>();
     private HashMap<Integer, Employee> employeeMap = new HashMap<>();
     private final String FILE_NAME = "employees.dat";
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d18c731ece3cea05575d06e35c4c26550ffb8e9
     public void addEmployee(Employee e) {
         if (employeeMap.containsKey(e.getId()))
             throw new IllegalArgumentException("Employee ID already exists");
