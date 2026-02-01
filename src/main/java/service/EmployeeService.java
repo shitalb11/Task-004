@@ -4,12 +4,10 @@ import model.Employee;
 import java.io.*;
 import java.util.*;
 
-
 public class EmployeeService {
     private ArrayList<Employee> employeeList = new ArrayList<>();
     private HashMap<Integer, Employee> employeeMap = new HashMap<>();
     private final String FILE_NAME = "employees.dat";
-
 
     public void addEmployee(Employee e) {
         if (employeeMap.containsKey(e.getId()))

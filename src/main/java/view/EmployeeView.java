@@ -12,6 +12,6 @@ public class EmployeeView {
         System.out.println("7. Save to File");
         System.out.println("8. Load from File");
         System.out.println("9. Exit");
-        System.out.print("Enter choice: ");
+        System.out.print("Enter Your choice: ");
     }
 }
